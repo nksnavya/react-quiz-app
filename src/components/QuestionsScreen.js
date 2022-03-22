@@ -1,23 +1,19 @@
 import React, { useState } from "react";
-import QUESTION_LIST from "./question.json";
-
 import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
 import {
   FormControl,
   FormLabel,
   Container,
-  Typography,
-  List,
-  ListItem,
-  ListItemText,
+  Typography
 } from "@mui/material";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import RadioInput from "./common/RadioInput";
-import TextAreaInput from "./common/TextAreaInput";
-import DateInput from "./common/DateInput";
-import CheckboxInput from "./common/CheckboxInput";
+import QUESTION_LIST from "../data/question.json";
+import RadioInput from "../common/RadioInput";
+import TextAreaInput from "../common/TextAreaInput";
+import DateInput from "../common/DateInput";
+import CheckboxInput from "../common/CheckboxInput";
 import Answers from "./Answers";
 
 function QuestionsScreen() {

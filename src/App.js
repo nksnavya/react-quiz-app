@@ -1,4 +1,4 @@
-import QuestionsScreen from "./QuestionsScreen";
+import QuestionsScreen from "./components/QuestionsScreen";
 import "./App.css";
 
 function App() {
